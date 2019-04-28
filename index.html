@@ -25,8 +25,32 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				  <section>
+              <h1> How video games taught me event sourcing</h1>
+              <aside class="notes">
+
+              </aside>
+          </section>
+				  <section>
+              <h2>Jean Paliès</h2>
+              <p>Freelancer, remote mob-programmer, gamer</p>
+              <i class="fa fa-twitter">@jpalies</i>
+          </section>
+          <section>
+              <p>Background: had just started courses about video encoding, pyschovisual...</p>
+              <p>Started to play a game of Warcraft3, which was eventually autosaved and fed to an analysis tool that gave me information on how my opponent had defeated me (most likely).</p>
+              <p>Wait. How?</p>
+          </section>
+          <section>
+              <p><a href="http://classic.battle.net/war3/faq/replays.shtml">FAQ says</a></p>
+                  <blockquote><b>Why can’t we rewind replays?</b></br/>
+                      A game replay is not the equivalent of a video tape. A replay is a simulation of a previously played game, for which we store only the user interface commands that took place in the game. This means that replays cannot be played in reverse. Rewindable replays would take up hundreds of megabytes of space.</blockquote>
+          </section>
+          <section>
+              <p>A replay is just AIs replaying player actions at the exact same time</p>
+              <p>There are some other events, such as the winner declared in the end (game engine generated event)</p>
+          </section>
+
 			</div>
 		</div>
 
